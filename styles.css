@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -39,6 +40,39 @@ ul {
 }
 
 .hlinks {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.intro .text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    display: flex;
+    
+}
+
+.close {
+    background-color: white;
+    color: black;
+    width: 50px;
+    text-align: center;
+}
+
+.watch-photo {
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
