@@ -99,6 +99,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     background-color:azure;
+    padding: 64px;
 }
 
 .info h2 {
@@ -125,6 +126,7 @@ h1 {
 .section p {
     max-width: 100px;
     text-align: center;
+    color: dimgrey;
 }
 
 .quote {
@@ -134,6 +136,7 @@ h1 {
     padding: 64px;
     gap: 24px;
     background-color: ghostwhite;
+    padding: 64px;
 }
 
 .quote .content {
