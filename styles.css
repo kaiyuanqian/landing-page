@@ -68,7 +68,8 @@ ul {
 
 .text {
     display: flex;
-    
+    flex-direction: column;
+    gap: 16px;
 }
 
 .close {
@@ -165,4 +166,33 @@ h1 {
     color: white;
     padding: 12px;
     font-size: 12px;
+}
+
+.ad {
+    display: flex;
+    background-color: azure;
+    padding: 64px;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    gap: 64px;
+    background-color: chartreuse;
+    align-items: center;
+    padding: 32px 64px;
+    border-radius: 8px;
+}
+
+.ad-button {
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+.ad-header,
+.ad-text {
+    padding: 0;
+    margin: 0;
 }
