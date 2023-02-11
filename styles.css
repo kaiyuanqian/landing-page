@@ -130,4 +130,26 @@ h1 {
 .quote {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 24px;
+    background-color: ghostwhite;
+}
+
+.quote .content {
+    font-size: 48px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote .speaker {
+    font-weight: 600;
+    text-align: right;
+    width: 500px;
+    font-size: 18px;
+}
+
+.quote p {
+    padding: 0;
+    margin: 0;
 }
